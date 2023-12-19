@@ -3,10 +3,11 @@
 
 # Kullanımı
 pip install -r requirements.txt
+
 python3 bcb.py [telefon numarası]
 
 # Proje Hakkında
 BCB: Bay Call Bomb
 
-BCB, python ile yazılmış bir "arama bombası" aracıdır. 
-Hedef numaray birden fazla arama yollar ve saldırıyı durdurmadığınız sürece devamlı olarak arama yollamaya devam eder.
+BCB, python ile yazılmış "arama bombası" aracıdır. 
+Hedef numaraya birden fazla arama yollar ve saldırıyı durdurmadığınız sürece devamlı olarak arama yollamaya devam eder.
