@@ -4,6 +4,7 @@
 # Kullanımı
 pip install -r requirements.txt
 
+
 python3 bcb.py [telefon numarası]
 
 # Proje Hakkında
