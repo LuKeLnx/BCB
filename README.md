@@ -1,14 +1,28 @@
-# BCB
-![Screenshot from 2023-12-19 09-26-05](https://github.com/baycpp/BCB/assets/124257665/1de43eb5-8a2d-4b56-8b63-288c61b015df)
+# Bay Call Bomb
+![Screenshot from 2024-02-04 19-37-47](https://github.com/baycpp/BCB/assets/124257665/e0d009d9-d629-4768-8282-c4e7853953e2)
 
-# Kullanımı
+# Kurulum
+#### Sistemdeki paketleri güncelleyin:
+```bash
+sudo apt-get update
+```
+#### Chromium browser'ı cihazınıza kurun:
+```bash
+sudo apt-get install -y chromium-browser
+```
+#### Chrome Driver'ı cihazınıza kurun:
+```bash
+sudo apt-get install chromium-chromedriver
+```
+#### Gerekli modülleri indirin:
+```bash
 pip install -r requirements.txt
+```
 
-
-python3 bcb.py [telefon numarası]
+# Kullanım
+```python
+bcb.py -h
+```
 
 # Proje Hakkında
-BCB: Bay Call Bomb
-
-BCB, python ile yazılmış "arama bombası" aracıdır. 
-Hedef numaraya birden fazla arama yollar ve saldırıyı durdurmadığınız sürece devamlı olarak arama yollamaya devam eder.
+BCB, python3 kullanılarak yazılan bir arama bombası aracıdır. Hedeflenen numaraya arama ve isteğe göre sms gönderir.
